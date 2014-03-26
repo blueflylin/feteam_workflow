@@ -1,12 +1,11 @@
 {
-  "name": "package",
-  "version": "0.0.0",
+  "name": "feteam_workflow",
+  "version": "0.0.1",
   "dependencies": {},
   "devDependencies": {
     "assemble": "~0.4.0",
     "grunt": "~0.4.1",
     "grunt-contrib-clean": "~0.4.0",
-    "grunt-contrib-concat": "0.1.2",
     "grunt-contrib-connect": "~0.2.0",
     "grunt-contrib-copy": "~0.4.0",
     "grunt-contrib-cssmin": "~0.6.0",
@@ -18,9 +17,32 @@
     "grunt-contrib-uglify": "~0.2.1",
     "grunt-contrib-watch": "0.4.3",
     "grunt-open": "~0.2.0",
+    "grunt-casper": "~0.1.1",
+    "grunt-cmd-concat": "",
+    "grunt-cmd-transport": "",
     "matchdep": "~0.1.1"
   },
   "engines": {
     "node": "~0.10.21"
-  }
+  },
+  "description": "Build production",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blueflylin/feteam_workflow.git"
+  },
+  "keywords": [
+    "yeoman",
+    "frontend",
+    "feteam"
+  ],
+  "author": "blueflylin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blueflylin/feteam_workflow/issues"
+  },
+  "homepage": "https://github.com/blueflylin/feteam_workflow"
 }
